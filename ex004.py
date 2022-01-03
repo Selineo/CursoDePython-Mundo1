@@ -1,0 +1,10 @@
+﻿n1 = input('digite algo:')
+print('o tipo primitivo desse valor e', type(n1))
+print('so tem espaços:', n1.isspace())
+print('e um numero:', n1.isnumeric())
+print('e alfabetico', n1.isalpha())
+print('e alfanumerico:', n1.isalnum())
+print('esta em maiusculo:', n1.isupper())
+print('esta em ninusculo:', n1.islower())
+print('esta capitalizado:', n1.istitle())
+
